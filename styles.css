@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  padding: 2rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 0.5rem;
+  }
+}
+
+h2, h3, h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 5rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  color: yellow;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 1.5rem;
+    margin: 5rem 0;
+  }
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  h5 {
+    line-height: 2;
+  }
+}
+
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  line-height: 2;
+}
+
+@media (max-width: 500px) {
+  #level-title {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+  color: black;
+}
+
+.black-font {
+  font-size: 10rem;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
